@@ -29511,8 +29511,8 @@ IC:function IC(a,b){this.d=a
 this.a=b},
 a6g:function a6g(){var _=this
 _.x=_.w=null
-_.y=!1
-_.z=null
+_.z=_.y=!1
+_.Q=null
 _.d=$
 _.c=_.a=null},
 aLq:function aLq(a){this.a=a},
@@ -102321,7 +102321,7 @@ if(r==null)r=s.gcS().b1($.lI(),t.TT).a
 return new A.cX(r==null||r.length===0?B.b3:A.ey(s.gcS().b1($.ft().$1(r),t.G),new A.aLw(s),new A.aLx(),new A.aLy(),!1,!0,!1),null)},
 atk(a){var s,r,q,p,o,n,m,l,k,j,i=this,h=null,g="SOON"
 if(i.gcS().b1($.db(),t.A).a==="pappaliiga"){s=a.x
-if(s.w)s=new A.l0(i.XB(a),B.a3l)
+if(s.w||i.z)s=new A.l0(i.XB(a),B.a3l)
 else{r=s.x
 q=t.p
 p=A.b([],q)
@@ -102362,12 +102362,14 @@ aq7(a,b){return this.XD(!1,a,b)}}
 A.aLq.prototype={
 $0(){var s=this.a
 s.y=!0
-s.x=null},
+s.x=null
+s.z=!1},
 $S:0}
 A.aLr.prototype={
 $0(){var s=this.a
 s.y=!0
-s.x=null},
+s.x=null
+s.z=!1},
 $S:0}
 A.aLs.prototype={
 $1(a){this.a.a_m(this.b)},
@@ -102375,12 +102377,13 @@ $S:68}
 A.aLt.prototype={
 $0(){var s=this.a
 s.y=!0
-s.x=null},
+s.x=null
+s.z=!0},
 $S:0}
 A.aLu.prototype={
 $0(){var s=this.a
 s.x=this.b
-s.y=!1},
+s.z=s.y=!1},
 $S:0}
 A.aLp.prototype={
 $2(a,b){return a>b?a:b},
@@ -102389,12 +102392,12 @@ A.aLw.prototype={
 $1(a){var s
 if(a==null)return B.b3
 s=this.a
-if(a.x.c!==s.z)$.a7.p4$.push(new A.aLv(s,a))
+if(a.x.c!==s.Q)$.a7.p4$.push(new A.aLv(s,a))
 return s.atk(a)},
 $S:29}
 A.aLv.prototype={
 $1(a){var s=this.a,r=this.b.x.c
-s.z=r
+s.Q=r
 s.at9(r)},
 $S:3}
 A.aLx.prototype={
