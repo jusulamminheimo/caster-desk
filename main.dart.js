@@ -102448,20 +102448,23 @@ j=g.y?172:154
 l.push(A.to(B.x,A.O(k,f,f,f,f,A.cF(m?B.D:B.e,j,B.r).a1y(0.86,4),f,f),B.ch))
 B.b.M(n,A.b([s,B.Cf,A.aW(A.dQ(B.x,l,B.i,B.a8,f),176,820)],o))}n.push(B.WU)
 n.push(g.XC(a))
-s=A.aw(n,B.m,new A.dW("pappaliiga-"+r+"-content",t.kK),B.j,B.ab)}return A.bE(A.b7i(s,B.Jy,A.big(),B.co,B.c4,A.bih()),f,f)}s=t.p
-r=A.b([],s)
-o=a.x
-if(!o.w){n=A.b([],s)
-if(o.x==="text"){l=o.y
+s=A.aw(n,B.m,new A.dW("pappaliiga-"+r+"-content",t.kK),B.j,B.ab)}return A.bE(A.b7i(s,B.Jy,A.big(),B.co,B.c4,A.bih()),f,f)}s=a.x
+q=s.x==="text"
+if(!s.w)p=g.z&&!q
+else p=!0
+r=t.p
+o=A.b([],r)
+if(!p){n=A.b([],r)
+if(q){l=s.y
 l=B.c.fz(l).length===0?e:l.toUpperCase()
-n.push(A.aW(A.to(B.aE,A.O(l,1,f,f,f,B.aK.fL(B.e,300,B.q,0.87),f,f),B.ch),360,1500))}else{l=A.a3(f,A.O(o.f.toUpperCase(),f,f,f,f,B.u.tI(37,B.q),f,f),B.i,B.e,f,f,f,f,f,new A.af(30,8,30,8),f,f,f)
+n.push(A.aW(A.to(B.aE,A.O(l,1,f,f,f,B.aK.fL(B.e,300,B.q,0.87),f,f),B.ch),360,1500))}else{l=A.a3(f,A.O(s.f.toUpperCase(),f,f,f,f,B.u.tI(37,B.q),f,f),B.i,B.e,f,f,f,f,f,new A.af(30,8,30,8),f,f,f)
 if(g.y)i=e
 else{k=g.x
-i=k!=null?g.V9(k):"--:--"}B.b.M(n,A.b([l,B.aV,A.O(i,f,f,f,f,B.aK.fL(B.e,405,B.q,0.87),f,f)],s))}n.push(B.aV)
-B.b.M(r,n)}h=g.afu(a)
+i=k!=null?g.V9(k):"--:--"}B.b.M(n,A.b([l,B.aV,A.O(i,f,f,f,f,B.aK.fL(B.e,405,B.q,0.87),f,f)],r))}n.push(B.aV)
+B.b.M(o,n)}h=g.afu(a)
 n=a.w
-r.push(A.aw(A.b([A.aT(A.b([A.a3(f,A.O(n.a.b.toUpperCase(),f,f,f,f,B.aK.fL(B.e,104,B.q,1),f,f),B.i,B.o,f,f,f,158,f,new A.af(36,28,12,0),f,f,h),A.a3(f,A.bE(A.O(o.a.toUpperCase(),f,f,f,f,B.aK.fL(B.o,104,B.q,1),f,f),f,f),B.i,B.e,f,f,f,158,f,f,f,f,158)],s),B.m,B.j,B.k,0),new A.d_(B.aE,f,f,A.a3(f,f,B.i,B.o,f,f,f,12,f,f,f,f,h+158),f),A.aT(A.b([A.a3(f,A.O(n.b.b.toUpperCase(),f,f,f,f,B.aK.fL(B.e,104,B.q,1),f,f),B.i,B.o,f,f,f,158,f,new A.af(36,28,12,0),f,f,h),A.a3(f,A.bE(A.O(o.b.toUpperCase(),f,f,f,f,B.aK.fL(B.o,104,B.q,1),f,f),f,f),B.i,B.e,f,f,f,158,f,f,f,f,158)],s),B.m,B.j,B.k,0)],s),B.m,f,B.j,B.k))
-return A.aw(r,B.I,f,B.h9,B.k)},
+o.push(A.aw(A.b([A.aT(A.b([A.a3(f,A.O(n.a.b.toUpperCase(),f,f,f,f,B.aK.fL(B.e,104,B.q,1),f,f),B.i,B.o,f,f,f,158,f,new A.af(36,28,12,0),f,f,h),A.a3(f,A.bE(A.O(s.a.toUpperCase(),f,f,f,f,B.aK.fL(B.o,104,B.q,1),f,f),f,f),B.i,B.e,f,f,f,158,f,f,f,f,158)],r),B.m,B.j,B.k,0),new A.d_(B.aE,f,f,A.a3(f,f,B.i,B.o,f,f,f,12,f,f,f,f,h+158),f),A.aT(A.b([A.a3(f,A.O(n.b.b.toUpperCase(),f,f,f,f,B.aK.fL(B.e,104,B.q,1),f,f),B.i,B.o,f,f,f,158,f,new A.af(36,28,12,0),f,f,h),A.a3(f,A.bE(A.O(s.b.toUpperCase(),f,f,f,f,B.aK.fL(B.o,104,B.q,1),f,f),f,f),B.i,B.e,f,f,f,158,f,f,f,f,158)],r),B.m,B.j,B.k,0)],r),B.m,f,B.j,B.k))
+return A.aw(o,B.I,f,B.h9,B.k)},
 aqb(){if(this.y)return"SOON"
 var s=this.x
 if(s!=null)return this.V9(s)
@@ -102473,9 +102476,9 @@ return A.aW(A.aT(A.b([r,A.a3(B.x,A.O(b.toUpperCase(),s,s,s,s,A.cF(B.e,48,B.r),s,
 aqa(a,b){return this.XE(!1,a,b)}}
 A.aLA.prototype={
 $0(){var s=this.a
-s.y=!0
+s.y=!1
 s.x=null
-s.z=!1},
+s.z=!0},
 $S:0}
 A.aLB.prototype={
 $0(){var s=this.a
