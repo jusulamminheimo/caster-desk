@@ -103122,7 +103122,7 @@ if(o!=null){q=o.k9()
 s=1
 break}n=p.a
 s=3
-return A.v(A.Pt(A.ed(n.e+"organizers/"+n.f+"/app/"+n.r+"/seasons/active")),$async$k9)
+return A.v(A.Pt(A.ed(n.e+"organizers/"+n.f+"/apps/"+n.r+"/seasons/active")),$async$k9)
 case 3:m=b
 n=m.b
 if(n!==200)throw A.e(A.dz("Failed to fetch active season: "+n))
@@ -116018,7 +116018,7 @@ a2.m(0,m.b,A.aZd(h,62+n*3,0.62+n*0.03,g,11+n,6,5+n,i,38+n*4,22+n,34-e,8+n,160+j,
 s($,"bpU","b63",()=>{var q="Aurora Aces",p="Boreal Binary",o="Cascade Five",n="Delta Default",m="Echo Entry",l="Frost Force",k="Grand Finalists",j="Lower Bracket Kings"
 return A.b([A.p6(1,101,102,q,p,13,8,B.hd,1),A.p6(2,101,103,q,o,11,13,B.hb,1),A.p6(3,101,104,q,n,13,6,B.hf,1),A.p6(4,102,103,p,o,13,10,B.he,1),A.p6(5,102,104,p,n,9,13,B.j9,1),A.p6(6,103,104,o,n,13,7,B.hc,1),A.p6(7,201,202,m,l,13,11,B.hd,2),A.p6(8,201,202,m,l,8,13,B.hb,2),A.p6(9,301,302,k,j,13,9,B.he,3),A.p6(10,301,302,k,j,10,13,B.hf,3)],t.wj)})
 s($,"bqR","rC",()=>{var q="assets/veto_cache.jpg",p=t.s,o=A.b(["assets/sponsor_logos/kanaliiga/atflow.png","assets/sponsor_logos/kanaliiga/tnnet.png","assets/sponsor_logos/kanaliiga/cave.png","assets/sponsor_logos/kanaliiga/sevendos.png"],p),n=t.N
-return A.aSg("https://hub.kanaliiga.fi/api/v1/casters/",1,A.b([],p),"GAME STARTING","Kanaliiga","assets/kanaliiga_logo.png",A.a_(["anubis","https://i.ibb.co/TtgJ3f2/anubis.png","cache",q,"mirage","https://i.ibb.co/DD7vbM6/mirage.png","vertigo","https://i.ibb.co/W0b1f41/vertigo.png","ancient","https://i.ibb.co/3R4XKkv/ancient.jpg","inferno","https://i.ibb.co/N9XVnxm/inferno.png","nuke","https://i.ibb.co/tHDwc3Y/nuke.jpg","overpass","https://i.ibb.co/h80rL5W/overpass.png","dust2","https://i.ibb.co/MpdB5wF/dust2.jpg","train","https://i.ibb.co/Wzqg40K/veto-train.png"],n,n),A.a_(["nuke","assets/veto-nuke.jpg","dust2","assets/veto-dust2.jpg","cache",q,"vertigo","assets/veto-vertigo.jpg","inferno","assets/veto-inferno.jpg","ancient","assets/veto-ancient.jpg","train","assets/veto-train.png","anubis","assets/veto-anubis.jpg","mirage","assets/veto-mirage.jpg"],n,n),B.RT,"kanaliiga","https://hub.kanaliiga.fi/api/v1/",A.bk1(),2,"@KANALIIGA",o,730)})
+return A.aSg("https://hub.kanaliiga.fi/api/v2/casters/",1,A.b([],p),"GAME STARTING","Kanaliiga","assets/kanaliiga_logo.png",A.a_(["anubis","https://i.ibb.co/TtgJ3f2/anubis.png","cache",q,"mirage","https://i.ibb.co/DD7vbM6/mirage.png","vertigo","https://i.ibb.co/W0b1f41/vertigo.png","ancient","https://i.ibb.co/3R4XKkv/ancient.jpg","inferno","https://i.ibb.co/N9XVnxm/inferno.png","nuke","https://i.ibb.co/tHDwc3Y/nuke.jpg","overpass","https://i.ibb.co/h80rL5W/overpass.png","dust2","https://i.ibb.co/MpdB5wF/dust2.jpg","train","https://i.ibb.co/Wzqg40K/veto-train.png"],n,n),A.a_(["nuke","assets/veto-nuke.jpg","dust2","assets/veto-dust2.jpg","cache",q,"vertigo","assets/veto-vertigo.jpg","inferno","assets/veto-inferno.jpg","ancient","assets/veto-ancient.jpg","train","assets/veto-train.png","anubis","assets/veto-anubis.jpg","mirage","assets/veto-mirage.jpg"],n,n),B.RT,"kanaliiga","https://hub.kanaliiga.fi/api/v2/",A.bk1(),2,"@KANALIIGA",o,730)})
 s($,"bqW","b6A",()=>{var q="localdev://fixtures/",p=$.rC()
 return A.aSg(q,0,p.y,"GAME STARTING","Local Dev",p.w,p.z,p.Q,B.RV,"localdev",q,A.bk4(),2,"@LOCALDEV",p.x,730)})
 s($,"br8","aVv",()=>{var q="https://api.pappaliiga.fi/s/cs2/stats/v1/",p=$.rC()
